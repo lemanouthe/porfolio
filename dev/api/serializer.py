@@ -5,6 +5,7 @@ class ProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Profile
         fields = '__all__'
+        depth = 1
 
 class SocialSerializer(serializers.ModelSerializer):
     class Meta:
