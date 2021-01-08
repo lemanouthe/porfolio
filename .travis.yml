@@ -13,3 +13,4 @@ install:
 script:
     # -  coverage run --source='blog' manage.py test && coverage report && coverage html
     - python manage.py test
+
